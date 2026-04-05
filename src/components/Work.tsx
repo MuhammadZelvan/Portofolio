@@ -4,6 +4,14 @@ import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useGSAP } from "@gsap/react";
 
+import imgLyra from "../assets/Chat AI.png";
+import imgDashboard from "../assets/Dashboard.png";
+import imgFuel from "../assets/Fuel.png";
+import imgVerro from "../assets/VerroCaffe.png";
+import imgPertamina from "../assets/Pertamina.png";
+import imgKlinik from "../assets/KlinikKecantikan.png";
+import imgValentine from "../assets/Valentine.png";
+
 gsap.registerPlugin(useGSAP);
 
 const Work = () => {
@@ -13,49 +21,49 @@ const Work = () => {
       title: "LyraAi",
       category: "AI Chatbot",
       tools: "React, Nextjs, Tailwindcss, Typescript, Javascript, PostgreSQL",
-      image: "/src/assets/Chat AI.png",
+      image: imgLyra,
     },
     {
       id: "02",
       title: "Dashboard Admin",
       category: "Admin Dashboard AI",
       tools: "React, Nextjs, Tailwindcss, Typescript, Javascript, PostgreSQL",
-      image: "/src/assets/Dashboard.png",
+      image: imgDashboard,
     },
     {
       id: "03",
       title: "Fuel",
       category: "Fuel Station Management System",
       tools: "React, Solidjs, Tailwindcss, Typescript, Javascript, Rust",
-      image: "/src/assets/Fuel.png",
+      image: imgFuel,
     },
     {
       id: "04",
       title: "VerroCafe",
       category: "Cafe",
       tools: "Laravel, PHP, MySQL, Tailwindcss",
-      image: "/src/assets/VerroCaffe.png",
+      image: imgVerro,
     },
     {
       id: "05",
       title: "Pertamina",
       category: "Fuel Station Management System",
       tools: "React, Solidjs, Tailwindcss, Typescript, Javascript, Rust",
-      image: "/src/assets/Pertamina.png",
+      image: imgPertamina,
     },
     {
       id: "06",
       title: "Klinik Kecantikan",
       category: "Klinik Kecantikan",
       tools: "React, Nextjs, Tailwindcss, Typescript, Javascript",
-      image: "/src/assets/KlinikKecantikan.png",
+      image: imgKlinik,
     },
     {
       id: "07",
       title: "Valentine",
       category: "Landing Page",
       tools: "React, Nextjs, Tailwindcss, Typescript, Javascript",
-      image: "/src/assets/Valentine.png",
+      image: imgValentine,
     },
   ];
 
@@ -63,8 +71,8 @@ const Work = () => {
     const getTranslateX = () => {
       const workFlex = document.querySelector(".work-flex") as HTMLElement;
       if (!workFlex) return 0;
-      const scrollable = workFlex.scrollWidth - window.innerWidth;
-      return Math.max(0, scrollable + 120);
+      // Lebar area scroll = kontainer flex, bukan window (ikut padding section)
+      return Math.max(0, workFlex.scrollWidth - workFlex.clientWidth);
     };
 
     const timeline = gsap.timeline({
