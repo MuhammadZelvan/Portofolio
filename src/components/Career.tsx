@@ -5,8 +5,8 @@ const Career = () => {
     <div className="career-section section-container">
       <div className="career-container">
         <h2>
-          My Education <span>&</span>
-          <br /> experience
+          Pendidikan <span>&</span>
+          <br /> pengalaman
         </h2>
         <div className="career-info">
           <div className="career-timeline">
@@ -15,63 +15,61 @@ const Career = () => {
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Junior High School</h4>
+                <h4>Sekolah menengah pertama</h4>
                 <h5>MTsN 31 Jakarta</h5>
               </div>
               <h3>2020 - 2023</h3>
             </div>
             <p>
-              I completed my junior high school education at MTsN 31 Jakarta,
-              focusing on academic fundamentals and active participation in
-              various school organizations.
+              Menyelesaikan pendidikan di MTsN 31 Jakarta dengan fokus pada
+              fondasi akademik dan partisipasi aktif di berbagai kegiatan organisasi
+              sekolah.
             </p>
           </div>
 
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Vocational High School</h4>
+                <h4>Sekolah menengah kejuruan</h4>
                 <h5>SMK Telkom Purwokerto</h5>
               </div>
               <h3>2023 - 2026</h3>
             </div>
             <p>
-              Currently studying Software Engineering (Pengembangan Perangkat
-              Lunak & Gim) at SMK Telkom Purwokerto. I am learning modern web
-              technologies, software logic, and UI/UX fundamentals to build
-              future-ready digital solutions.
+              Sedang menempuh Rekayasa Perangkat Lunak (Pengembangan Perangkat Lunak
+              & Gim) di SMK Telkom Purwokerto. Mempelajari teknologi web modern,
+              logika perangkat lunak, dan dasar UI/UX untuk membangun solusi digital
+              yang relevan.
             </p>
           </div>
 
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Fullstack Developer Intern</h4>
+                <h4>Magang Fullstack Developer</h4>
                 <h5>PT. SMARTELCO SOLUSI TEKNOLOGI</h5>
               </div>
-              <h3>JUN - OCT 2025</h3>
+              <h3>JUN - OKT 2025</h3>
             </div>
             <p>
-              Developed and maintained web applications as a Fullstack
-              Developer. Involved in front-end and back-end development,
-              database integration, and feature implementation while
-              collaborating with the team for debugging and performance
-              optimization.
+              Mengembangkan dan memelihara aplikasi web sebagai pengembang fullstack,
+              termasuk front-end dan back-end, integrasi basis data, serta fitur baru,
+              berkolaborasi dengan tim untuk debugging dan optimasi performa.
             </p>
           </div>
 
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>UI/UX Design Intern</h4>
+                <h4>Magang desainer UI/UX</h4>
                 <h5>PT. SMARTELCO SOLUSI TEKNOLOGI</h5>
               </div>
-              <h3>JUN - OCT 2025</h3>
+              <h3>JUN - OKT 2025</h3>
             </div>
             <p>
-              Designed web application interfaces using Figma and Adobe tools.
-              Created wireframes and prototypes, and collaborated with
-              developers to ensure user-friendly, ready-to-implement designs.
+              Mendesain antarmuka aplikasi web dengan Figma dan alat Adobe,
+              membuat wireframe dan prototipe, serta berkoordinasi dengan pengembang
+              agar desain mudah dipakai dan siap diimplementasikan.
             </p>
           </div>
         </div>

@@ -5,7 +5,7 @@ const Contact = () => {
   return (
     <div className="contact-section section-container" id="contact">
       <div className="contact-container">
-        <h3>Contact</h3>
+        <h3>Kontak</h3>
         <div className="contact-flex">
           <div className="contact-box">
             <h4>Email</h4>
@@ -14,7 +14,7 @@ const Contact = () => {
                 zenmuhammad900@mail.com
               </a>
             </p>
-            <h4>Phone</h4>
+            <h4>Telepon</h4>
             <p>
               <a href="tel:+6285975253722" data-cursor="disable">
                 +62 859 7525 3722
@@ -22,7 +22,7 @@ const Contact = () => {
             </p>
           </div>
           <div className="contact-box">
-            <h4>Social</h4>
+            <h4>Media sosial</h4>
             <a
               href="https://github.com/MuhammadZelvan"
               target="_blank"
@@ -45,7 +45,7 @@ const Contact = () => {
               data-cursor="disable"
               className="contact-social"
             >
-              Twitter <MdArrowOutward />
+              X (Twitter) <MdArrowOutward />
             </a>
             <a
               href="https://www.instagram.com/znzfrr__/"
@@ -58,7 +58,7 @@ const Contact = () => {
           </div>
           <div className="contact-box">
             <h2>
-              Designed and Developed <br /> by <span>Muhammad Zelvan</span>
+              Didesain & dikembangkan <br /> oleh <span>Muhammad Zelvan</span>
             </h2>
             <h5>
               <MdCopyright /> 2026

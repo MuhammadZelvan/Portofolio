@@ -90,12 +90,12 @@ const WhatIDo = () => {
               <h3>DEVELOP</h3>
               <h4>Description</h4>
               <p>
-                I build high-performance, scalable web applications with a focus
-                on clean code and seamless user experiences. From complex
-                front-end interfaces to robust back-end systems, I bridge the
-                gap between creative concepts and technical reality.
+                Saya membangun aplikasi web yang tangguh dan skalabel dengan kode
+                yang rapi serta pengalaman pengguna yang mulus. Dari antarmuka
+                front-end yang kompleks hingga sistem back-end, saya menghubungkan
+                ide kreatif dengan implementasi teknis.
               </p>
-              <h5>Skillset & tools</h5>
+              <h5>Keahlian & alat</h5>
               <div className="what-content-flex">
                 <div className="what-tags">JavaScript</div>
                 <div className="what-tags">TypeScript</div>
@@ -131,12 +131,12 @@ const WhatIDo = () => {
               <h3>DESIGN</h3>
               <h4>Description</h4>
               <p>
-                I craft intuitive and visually stunning user interfaces that
-                prioritize user experience and brand identity. My process
-                involves thoughtful research and prototyping to create digital
-                products that leave a lasting impression.
+                Saya merancang antarmuka yang intuitif dan menarik secara visual,
+                dengan mengutamakan pengalaman pengguna dan identitas merek. Proses
+                saya mencakup riset, prototipe, dan iterasi untuk menghasilkan produk
+                digital yang berkesan.
               </p>
-              <h5>Skillset & tools</h5>
+              <h5>Keahlian & alat</h5>
               <div className="what-content-flex">
                 <div className="what-tags">Figma</div>
                 <div className="what-tags">Canva</div>
